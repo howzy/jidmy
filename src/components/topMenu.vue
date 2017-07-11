@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class="header">
+    <header class="header has-shadow">
       <nav class="nav">
         <div class="container">
           <div class="nav-logo">
@@ -22,7 +22,7 @@ export default {
   data () {
     return {
       menuList: [
-        {name: '首页', path: ''},
+        {name: '首页', path: '/'},
         {name: '企业文化', path: 'culture'},
         {name: '新闻动态', path: 'news'},
         {name: '名品展示', path: 'product'},
@@ -38,30 +38,54 @@ export default {
 <style lang="scss">
   @import '../style/variable';
 
+  @media screen and (max-width: 1192px) {
+    .container {
+      max-width: 1152px;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .container {
+      margin: 0 auto;
+      max-width: 890px;
+    }
+  }
+  
   .header {
     min-height: 65px;
     background-color: $headerbg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &.has-shadow {
+      box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+    }
   }
   .nav {
     position: relative;
     background-color: $headerbg;
-    z-index: 30px;
+    z-index: 30;
+    width: 100%;
 
     .container {
-      width: 1220px;
-      margin: 0 auto;
-    }
-    .nav-logo {
-      float: left;
+      width: 100%;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      align-items: center;
     }
     .nav-item {
-      color: #fff;
+      color: #c8c8c8;
+      &:hover, &.router-link-exact-active {
+        color: #fff;
+      }
       img {
         max-height: 2.4rem;
       }
     }
-    .nav-list {
-      float: right;
+  }
+  .nav-list {
+    .nav-item {
+      padding: 0 25px;
     }
   }
 </style>
