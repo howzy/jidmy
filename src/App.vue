@@ -22,4 +22,7 @@ export default {
 <style lang="scss">
 @import './style/common';
 
+body {
+  background-color: #ededed;
+}
 </style>
