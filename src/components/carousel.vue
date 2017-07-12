@@ -4,7 +4,7 @@
     <swiper-slide><a href=""><img src="../assets/img/bg1.jpg" alt="轮播图"></a></swiper-slide>
     <swiper-slide><a href=""><img src="../assets/img/bg2.jpg" alt="轮播图"></a></swiper-slide>
     <!-- Optional controls -->
-     <div class="swiper-pagination"  slot="pagination"></div>
+    <div class="swiper-pagination"  slot="pagination"></div>
   </swiper>
 </template>
 
@@ -31,7 +31,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .swiper-slide {
   width: 100%;
   height: 850px;
