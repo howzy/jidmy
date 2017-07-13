@@ -28,6 +28,43 @@
         </li>
       </ul>
     </div>
+    <!-- 我们的优势 -->
+    <div class="advantage">
+      <h3 class="title">我们的优势</h3>
+      <div class="advantage-content">
+        <div class="inner">
+          <div class="inner-left">
+            <p class="inner-title">我们的优势</p>
+            <p class="inner-item one">20余年经验铸就坚硬的品牌理念</p>
+            <p class="inner-item two">FINAL　QUALITY　OF　INTERNATIONAL</p>
+            <p class="inner-item three">ADVANCED　TECHNOLOGY</p>
+          </div>
+          <div class="inner-right">
+            <div class="inner-item">
+              <img src="../assets/img/advantage_icon_1.png">
+              <div>
+                <p class="inner-title">国际品牌认证</p>
+                <p>一系列突破性的创新给我了我们公司和我们的产品当之无愧的全球声誉</p>
+              </div>
+            </div>
+            <div class="inner-item">
+              <img src="../assets/img/advantage_icon_2.png">
+              <div>
+                <p class="inner-title">多年礼品经验</p>
+                <p>我们多年的礼赠品经验，带给您最好的产品和服务，让您用的放心</p>
+              </div>
+            </div>
+            <div class="inner-item">
+              <img src="../assets/img/advantage_icon_3.png">
+              <div>
+                <p class="inner-title">卓越技术团队</p>
+                <p>卓越的技术团队，给您高品质，高质量的产品，给您一个不同的供应商</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!--合作品牌-->
     <!-- <brand-list></brand-list> -->
     <div class="container brand">
@@ -67,8 +104,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  @media screen and (max-width: 1220px) {
+    .advantage {
+      width: 1220px;
+    }
+  }
   .container {
-    width: 1140px;
+    width: 1220px;
     margin: 0 auto;
   }
   .title {
@@ -78,6 +120,8 @@ export default {
     color: #666;
   }
   .brand {
+    width: 1140px;
+    margin: 0 auto;
     .brand-list {
       font-size: 0;
       overflow: hidden;
@@ -109,6 +153,76 @@ export default {
       }
       &:hover {
         transform: scale(1.2);
+      }
+    }
+  }
+  .advantage-content {
+    background-image: url('../assets/img/advantage_bg.png');
+    background-position: center top;
+    height: 590px;
+    position: relative;
+    .inner {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 1220px;
+      margin: auto;
+      height: 470px;
+    }
+    .inner-left {
+      width: 500px;
+      position: relative;
+      .inner-title {
+        font-size: 46px;
+        color: #ffe469;
+        position: absolute;
+        top: 95px;
+        left: 160px;
+      }
+      .inner-item {
+        color: #fff;
+        position: absolute;
+        &.one {
+          top: 165px;
+          left: 160px;
+        }
+        &.two {
+          top: 365px;
+          left: 60px;
+        }
+        &.three {
+          top: 395px;
+          left: 155px;
+        }
+      }
+    }
+    .inner-right {
+      width: 720px;
+      height: 100%;
+      margin-left: 545px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      .inner-item {
+        display: flex;
+        align-items: center;
+      }
+      img {
+        margin-right: 25px;
+        transition: all .5s ease-in-out;
+        &:hover {
+          transform: rotate(360deg);
+        }
+      }
+      p {
+        color: #fff;
+        margin: 8px 0;
+        &.inner-title {
+          font-size: 20px;
+          color: #ffe469;
+        }
       }
     }
   }
