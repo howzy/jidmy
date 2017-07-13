@@ -2,6 +2,32 @@
   <div class="home">
     <!--轮播图-->
     <carousel></carousel>
+    <!-- 四大生态 -->
+    <div class="container ecology">
+      <h3 class="title">四大生态</h3>
+      <ul class="ecology-list">
+        <li class="ecology-item">
+          <img src="../assets/img/ecology_icon_1.png" alt="">
+          <p>线上线下一站式企业</p>
+          <p>积分生态商城</p>
+        </li>
+        <li class="ecology-item">
+          <img src="../assets/img/ecology_icon_2.png" alt="">
+          <p>低成本，集约化</p>
+          <p>产品供应链生态</p>
+        </li>
+        <li class="ecology-item">
+          <img src="../assets/img/ecology_icon_3.png" alt="">
+          <p>1 + N 商户</p>
+          <p>营销生态</p>
+        </li>
+        <li class="ecology-item">
+          <img src="../assets/img/ecology_icon_4.png" alt="">
+          <p>消费就是挣钱，分享就是创业</p>
+          <p>消费生态</p>
+        </li>
+      </ul>
+    </div>
     <!--合作品牌-->
     <!-- <brand-list></brand-list> -->
     <div class="container brand">
@@ -61,6 +87,29 @@ export default {
       display: inline-block;
       margin: 0 7px 7px 0;
       cursor: pointer;
+    }
+  }
+  .ecology-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 40px;
+    .ecology-item {
+      width: 20%;
+      padding: 0 10px;
+      text-align: center;
+      transition: all .5s ease-in-out;
+
+      img {
+        width: 50%;
+        margin-bottom: 30px;
+      }
+      p {
+        color: #424242;
+        font-size: 15px;
+      }
+      &:hover {
+        transform: scale(1.2);
+      }
     }
   }
 </style>
