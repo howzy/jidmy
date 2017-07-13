@@ -33,12 +33,10 @@ export default {
     return {
       swiperOption2: {
         notNextTick: true,
-        autoPlay: 1000,
+        autoplay: 1000,
         // loop: true,
         prevButton: '.swiper-button-prev',
-        nextButton: '.swiper-button-next',
-        slidesPerView: 4,
-        slidesPerColumn: 3
+        nextButton: '.swiper-button-next'
       }
     }
   },
