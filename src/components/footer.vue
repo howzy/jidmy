@@ -55,11 +55,10 @@ export default {
     return {
       menuList: [
         {name: '首页', path: '/'},
-        {name: '企业文化', path: 'culture'},
+        {name: '关于礼享', path: 'about'},
         {name: '新闻动态', path: 'news'},
         {name: '名品展示', path: 'product'},
         {name: '招商加盟', path: 'join'},
-        {name: '关于礼享', path: 'about'},
         {name: '服务中心', path: 'service'}
       ]
     }
