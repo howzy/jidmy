@@ -44,6 +44,7 @@
   }
   h3 {
     font-size: 24px;
+    text-align: center;
   }
   p {
     font-size: 16px;
