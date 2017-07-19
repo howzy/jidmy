@@ -30,6 +30,11 @@
                   <img src="../assets/img/wechat.jpg" alt="官方微信">
                 </p>
               </div>
+              <div class="nav-right">
+                <div class="tel"><a href="tel:4008-117-998">4008-117-998</a></div>
+                <div class="time">周一至周五 9:00-18:00（仅收市话费）</div>
+                <div class="time"><a href="tel:17367059226">17367059226</a>（非工作日）</div>
+              </div>
             </div>
           </div>
           <div class="copyright">
@@ -136,6 +141,31 @@ export default {
     }
     img {
       cursor: pointer;
+    }
+  }
+  .nav-right {
+    float: right;
+    width: 20%;
+    .tel {
+      font-size: 30px;
+      line-height: 1;
+      width: 241px;
+      text-align: right;
+      a {
+        color: #646464;
+      }
+    }
+    .time {
+      text-align: right;
+      width: 241px;
+      font-size: 12px;
+      line-height: 24px;
+      color: #c3c3c3;
+      position: relative;
+      right: -5px;
+      a {
+        color: #c3c3c3;
+      }
     }
   }
 }
