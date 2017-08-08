@@ -16,20 +16,66 @@
   outline: 0;
 }
 
+.icon-bar {
+  background: #fff;
+}
+
 .navbar-custom {
   background: rgba(26, 26, 26, .8);
+
+}
+
+.navbar-custom .nav li a {
+  color: #c8c8c8;
+  -webkit-transition: background .3s ease-in-out;
+  -moz-transition: background .3s ease-in-out;
+  transition: background .3s ease-in-out;
+}
+
+.navbar-custom li.active a {
+  color: #fff;
+}
+
+.navbar-custom li a:hover {
+  background: none;
+  color: #fff;
+}
+
+.navbar-custom li a:focus {
+  outline: 0;
+}
+
+.navbar-custom.top-nav-collapse {
+  padding: 0;
+  background: #1a1a1a;
+}
+
+.navbar-custom.top-nav-collapse li.active,
+.navbar-custom.top-nav-collapse li:hover {
+  background: rgba(255, 255, 255, .1);
 }
 
 /* =========== 媒体适配 ============ */
 
 @media(min-width: 768px) {
   .navbar {
-    padding: 5px 0;
+    padding: 10px 0;
     border-top: 0;
     border-bottom: 0;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+  }
+}
+
+@media(max-width: 767px) {
+  .navbar-toggle {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
-  .navbar-custom {
-
+  .navbar-custom li.active,
+  .navbar-custom li:hover {
+    background: rgba(255, 255, 255, .1);
   }
 }
