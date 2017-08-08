@@ -76,7 +76,7 @@
 }
 
 .bg-grey {
-  background: #ededed;
+  background: #f8f8f8;
 }
 
 .bg-white {
@@ -104,6 +104,20 @@
 #service .title {
   font-weight: 700;
   font-size: 16px;
+}
+
+/* =========== 企业实力 ============ */
+
+#strength .count {
+  margin: 0;
+  font-size: 40px;
+  color: #fe6a38;
+}
+
+#strength .desc {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 /* =========== 媒体适配 ============ */
