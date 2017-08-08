@@ -120,6 +120,71 @@
   white-space: nowrap;
 }
 
+/* =========== 联系我们 ============ */
+
+.boxed-grey {
+  background: #f8f8f8;
+  padding: 20px;
+}
+
+form#contact-form .form-group label {
+  display: block;
+  text-align: left !important;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+form#contact-form input,
+form#contact-form select,
+form#contact-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  border: 1px solid #eee;
+}
+
+form#contact-form input:focus,
+form#contact-form select:focus,
+form#contact-form textarea:focus {
+  border-color: #2fa0ff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+}
+
+form#contact-form textarea {
+  padding-bottom: 2px;
+}
+
+.input-group-addon {
+  background-color: #fefefe;
+  border: 1px solid #eee;
+  border-radius: 0;
+}
+
+.btn {
+  border-radius: 0;
+  text-transform: uppercase;
+  font-family: Microsoft YaHei,SimHei;
+  font-weight: 400;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.btn-skin {
+  color: #fff;
+  background-color: #2fa0ff;
+  border-color: #2fa0ff;
+}
+
+.btn-skin:hover,
+.btn-skin:focus,
+.btn-skin:active,
+.btn-skin.active {
+  color: #fff;
+  background-color: #666;
+  border-color: #666;
+}
+
 /* =========== 媒体适配 ============ */
 
 @media(min-width: 768px) {
