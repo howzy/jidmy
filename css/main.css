@@ -61,6 +61,51 @@
   /* min-height: 30em; */
 }
 
+/* =========== commom ============ */
+
+.home-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: block;
+  position: relative;
+  z-index: 120;
+}
+
+.section-heading h2 {
+  /* font-size: 40px; */
+}
+
+.bg-grey {
+  background: #ededed;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+/* =========== 商城服务 ============ */
+
+#service .item {
+   padding: 25px 15px;
+   margin: 15px 0;
+  -webkit-transition: background .3s ease-in-out;
+  -moz-transition: background .3s ease-in-out;
+  transition: background .3s ease-in-out;
+}
+
+#service .item:hover {
+  background: #d5ecff;
+}
+
+#service .item .avatar img {
+  display: inline-block;
+}
+
+#service .title {
+  font-weight: 700;
+  font-size: 16px;
+}
+
 /* =========== 媒体适配 ============ */
 
 @media(min-width: 768px) {

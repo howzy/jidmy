@@ -50,7 +50,15 @@ a:focus {
   color: #435b60;
 }
 
-/* ::selection {
-  background: #2fa0ff;
-  color: #fff;
-} */
+hr {
+  margin-top: 0;
+  border-top: 3px solid #2fa0ff;
+}
+
+/* margins */
+.marginbot-0{margin-bottom:0 !important;}
+.marginbot-10{margin-bottom:10px !important;}
+.marginbot-20{margin-bottom:20px !important;}
+.marginbot-30{margin-bottom:30px !important;}
+.marginbot-40{margin-bottom:40px !important;}
+.marginbot-50{margin-bottom:50px !important;}
