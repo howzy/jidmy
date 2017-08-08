@@ -1,0 +1,56 @@
+/* 主色：#2fa0ff
+辅色：#d5ecff
+底色：#ededed
+文字：#666
+导航：#1a1a1a */
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Microsoft YaHei,SimHei;
+  font-weight: 300;
+  color: #666;
+  background-color: #fff;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 20px 0 30px;
+  text-transform: uppercase;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+p {
+  margin: 0 0 20px;
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+a {
+  color: #666;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #435b60;
+}
+
+/* ::selection {
+  background: #2fa0ff;
+  color: #fff;
+} */

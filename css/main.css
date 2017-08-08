@@ -1,0 +1,35 @@
+/* =========== 导航栏 ============ */
+
+.navbar {
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255,255,255,.3);
+}
+
+.navbar-brand {
+  height: 42px;
+  padding: 9px 15px;
+  font-size: 18px;
+  line-height: 1em;
+}
+
+.navbar-brand:focus {
+  outline: 0;
+}
+
+.navbar-custom {
+  background: rgba(26, 26, 26, .8);
+}
+
+/* =========== 媒体适配 ============ */
+
+@media(min-width: 768px) {
+  .navbar {
+    padding: 5px 0;
+    border-top: 0;
+    border-bottom: 0;
+  }
+
+  .navbar-custom {
+
+  }
+}
