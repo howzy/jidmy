@@ -7,4 +7,12 @@
       $(".navbar-fixed-top").removeClass("top-nav-collapse");
     }
   });
+
+  // 轮播图
+  var mySwiper = new Swiper('.swiper-container', {
+    autoplay: 3000,
+    loop: true,
+    grabCursor : true,
+    pagination: 'swiper-pagination'
+  });
 })(jQuery);
