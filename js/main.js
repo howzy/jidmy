@@ -12,7 +12,7 @@
   var mySwiper = new Swiper('.swiper-container', {
     autoplay: 3000,
     loop: true,
-    grabCursor : true,
-    pagination: 'swiper-pagination'
+    pagination: '.swiper-pagination',
+    paginationClickable: true
   });
 })(jQuery);

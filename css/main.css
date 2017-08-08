@@ -55,8 +55,10 @@
   background: rgba(255, 255, 255, .1);
 }
 
-.swiper-slide img {
-  width: 100%;
+/* =========== 轮播图 ============ */
+
+.swiper-container {
+  /* min-height: 30em; */
 }
 
 /* =========== 媒体适配 ============ */
@@ -82,4 +84,10 @@
   .navbar-custom li:hover {
     background: rgba(255, 255, 255, .1);
   }
+}
+
+@media(max-width: 480px) {
+  /* #banner {
+    margin-top: 55px;
+  } */
 }
