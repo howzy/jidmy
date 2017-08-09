@@ -84,6 +84,38 @@
   background: #fff;
 }
 
+/* =========== 问题困扰 ============ */
+
+#problem {
+  padding-bottom: 0;
+}
+
+#problem .team {
+  position: relative;
+  z-index: 2;
+}
+
+#problem .team::after {
+  position: absolute;
+  z-index: 1;
+  content: '';
+  top: 0;
+  left: 15px;
+  width: 20px;
+  height: 100px;
+  border: 2px solid #2fa0ff;
+}
+
+#problem .item-right {
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+}
+
+#problem .people {
+   margin-top: 115px; 
+}
+
 /* =========== 商城服务 ============ */
 
 #service .item {
@@ -276,6 +308,22 @@ footer span {
 }
 
 @media(max-width: 480px) {
+  .navbar-custom {
+    background: rgba(26, 26, 26, 1);
+  }
+
+  .navbar-brand img {
+    width: 118px;
+  }
+
+  #banner {
+    margin-top: 51px;
+  }
+
+  .section-heading h2 {
+    font-size: 22px; 
+  }
+
   embed {
     height: 200px;
   }
