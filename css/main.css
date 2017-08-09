@@ -209,6 +209,23 @@ form#contact-form textarea {
   width: 100px;
 }
 
+#contact .item {
+  padding: 20px;
+  line-height: 1.6;
+  border: 1px solid #f9f9f9;
+}
+
+#contact .item .title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+#contact .item .item-img {
+  max-width: 80px;
+  margin: -10px 16px 0 0;
+}
+
 /* =========== 媒体适配 ============ */
 
 @media(min-width: 768px) {
