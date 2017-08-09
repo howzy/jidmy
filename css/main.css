@@ -91,8 +91,10 @@
 }
 
 #problem .team {
-  position: relative;
-  z-index: 2;
+  padding-left: 65px;
+  padding-top: 25px;
+  height: 325px;
+  background: #fff;
 }
 
 #problem .team::after {
@@ -101,15 +103,20 @@
   content: '';
   top: 0;
   left: 15px;
-  width: 20px;
-  height: 100px;
+  width: 100px;
+  height: 100%;
   border: 2px solid #2fa0ff;
 }
 
 #problem .item-right {
-  /* position: absolute;
-  top: 0;
-  left: 0; */
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  padding: 10px 0;
+}
+
+#problem .item-right p:nth-child(1) {
+  /* margin: 0; */
 }
 
 #problem .people {
@@ -251,7 +258,7 @@ form#contact-form textarea {
 #contact .item {
   padding: 20px;
   line-height: 1.6;
-  border: 1px solid #f9f9f9;
+  border: 1px solid #2fa0ff;
 }
 
 #contact .item .title {
@@ -304,6 +311,10 @@ footer span {
   .navbar-custom li.active,
   .navbar-custom li:hover {
     background: rgba(255, 255, 255, .1);
+  }
+
+  #problem {
+    display: none;
   }
 }
 
