@@ -43,6 +43,7 @@
 
 .navbar-custom li a:focus {
   outline: 0;
+  background: rgba(255, 255, 255, .1);
 }
 
 .navbar-custom.top-nav-collapse {
@@ -118,6 +119,12 @@
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+}
+
+/* =========== 媒体报道 ============ */
+
+embed {
+  margin-bottom: 10px;
 }
 
 /* =========== 联系我们 ============ */
@@ -226,6 +233,23 @@ form#contact-form textarea {
   margin: -10px 16px 0 0;
 }
 
+/* =========== 页脚 ============ */
+
+footer {
+  text-align: center;
+  /* color: #c8c8c8; */
+  padding: 50px 0;
+  background-color: #1a1a1a;
+}
+
+footer p.copyright {
+  margin-bottom: 0;
+}
+
+footer span {
+  font-size: 13px;
+}
+
 /* =========== 媒体适配 ============ */
 
 @media(min-width: 768px) {
@@ -252,7 +276,7 @@ form#contact-form textarea {
 }
 
 @media(max-width: 480px) {
-  /* #banner {
-    margin-top: 55px;
-  } */
+  embed {
+    height: 200px;
+  }
 }
