@@ -160,6 +160,13 @@
   white-space: nowrap;
 }
 
+/* =========== 优势 ============ */
+
+.advantage {
+  min-height: 550px;
+  background: url(../img/advantage_1.jpg)
+}
+
 /* =========== 媒体报道 ============ */
 
 embed {
