@@ -185,6 +185,30 @@ form#contact-form textarea {
   border-color: #666;
 }
 
+#contact .widget-contact .icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  padding-top: 2px;
+}
+
+#contact .widget-contact .icon.phone {
+  padding-top: 0;
+}
+
+#contact .widget-contact .tel {
+    font-size: 18px;
+}
+
+#contact .widget-contact a:focus {
+  outline: 0;
+}
+
+#contact .widget-contact .social-weixin {
+  width: 100px;
+}
+
 /* =========== 媒体适配 ============ */
 
 @media(min-width: 768px) {
