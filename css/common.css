@@ -62,3 +62,10 @@ hr {
 .marginbot-30{margin-bottom:30px !important;}
 .marginbot-40{margin-bottom:40px !important;}
 .marginbot-50{margin-bottom:50px !important;}
+
+.vertical-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

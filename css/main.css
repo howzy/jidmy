@@ -163,9 +163,64 @@
 /* =========== 优势 ============ */
 
 .advantage {
-  min-height: 550px;
-  background: url(../img/advantage_1.jpg)
+  position: relative;
+  background: url(../img/advantage_bg.jpg) no-repeat top center;
 }
+
+.advantage .content {
+  height: 800px;
+}
+
+.advantage .content .box {
+  width: 608px;
+  height: 543px;
+  background: url(../img/advantage_bottom.png) no-repeat bottom left;
+  position: absolute;
+  bottom: -60px;
+  left: -50px;
+}
+
+.advantage .content .pic {
+  position: absolute;
+  display: block;
+  width: 160px;
+  height: 100px;
+}
+
+.advantage .content .pic_left {
+  left: 70px;
+  top: 80px;
+  background: url(../img/advantage_left.png) no-repeat;
+}
+
+.advantage .content .pic_right {
+  right: 140px;
+  top: 35px;
+  background: url(../img/advantage_right.png) no-repeat;
+}
+
+.advantage .content .pic_top {
+  position: absolute;
+  width: 441px;
+  height: 164px;
+  top: -175px;
+  background: url(../img/advantage_top.png) no-repeat;
+}
+
+.advantage h1.desc {
+  width: 400px;
+  color: #f8f8f8;
+}
+
+.advantage h1.desc span {
+  font-size: 40px;
+  color: #fbcd32;
+}
+
+.advantage p {
+  color: #ccc;
+}
+
 
 /* =========== 媒体报道 ============ */
 
@@ -321,6 +376,10 @@ footer span {
   }
 
   #problem {
+    display: none;
+  }
+
+  #advantage_1 {
     display: none;
   }
 }
