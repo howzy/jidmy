@@ -162,49 +162,8 @@
 
 /* =========== 优势 ============ */
 
-.advantage {
-  position: relative;
-  background: url(../img/advantage_bg.jpg) no-repeat top center;
-}
-
 .advantage .content {
   height: 800px;
-}
-
-.advantage .content .box {
-  width: 608px;
-  height: 543px;
-  background: url(../img/advantage_bottom.png) no-repeat bottom left;
-  position: absolute;
-  bottom: -60px;
-  left: -50px;
-}
-
-.advantage .content .pic {
-  position: absolute;
-  display: block;
-  width: 160px;
-  height: 100px;
-}
-
-.advantage .content .pic_left {
-  left: 70px;
-  top: 80px;
-  background: url(../img/advantage_left.png) no-repeat;
-}
-
-.advantage .content .pic_right {
-  right: 140px;
-  top: 35px;
-  background: url(../img/advantage_right.png) no-repeat;
-}
-
-.advantage .content .pic_top {
-  position: absolute;
-  width: 441px;
-  height: 164px;
-  top: -175px;
-  background: url(../img/advantage_top.png) no-repeat;
 }
 
 .advantage h1.desc {
@@ -221,6 +180,112 @@
   color: #ccc;
 }
 
+#advantage_1 {
+  position: relative;
+  background: url(../img/advantage_bg.jpg) no-repeat top center;
+}
+
+#advantage_1 .content .box {
+  width: 608px;
+  height: 543px;
+  background: url(../img/bg01-sc01_01.png) no-repeat bottom left;
+  position: absolute;
+  bottom: 0;
+  left: -50px;
+}
+
+#advantage_1 .content .pic {
+  position: absolute;
+  display: block;
+  width: 160px;
+  height: 100px;
+}
+
+#advantage_1 .content .pic_left {
+  left: 70px;
+  top: 140px;
+  background: url(../img/advantage_left.png) no-repeat;
+}
+
+#advantage_1 .content .pic_right {
+  right: 140px;
+  top: 95px;
+  background: url(../img/advantage_right.png) no-repeat;
+}
+
+#advantage_1 .content .pic_top {
+  position: absolute;
+  width: 441px;
+  height: 164px;
+  top: -115px;
+  background: url(../img/advantage_top.png) no-repeat;
+}
+
+#advantage_2 {
+  position: relative;
+  /* background: url(../img/advantage-bg03.jpg) no-repeat top center; */
+}
+
+#advantage_2 h1.desc {
+  color: #424242;
+}
+
+#advantage_2 h1.desc span {
+  color: #2fa0ff;
+}
+
+#advantage_2 p {
+  color: #666;
+}
+
+#advantage_2 .pic_left {
+  width: 330px;
+  height: 373px;
+  background: url(../img/bg04-sc02.png) no-repeat;
+}
+
+#advantage_2 .pic_right {
+  margin-top: 100px;
+  width: 428px;
+  height: 519px;
+  background: url(../img/bg04-sc01.png) no-repeat;
+}
+
+#advantage_3 {
+  position: relative;
+  background: url(../img/advantage-bg03.jpg) no-repeat;
+}
+
+#advantage_3 .pic_top {
+  position: absolute;
+  width: 608px;
+  height: 732px;
+  left: -70px;
+  bottom: -5px;
+  background: url(../img/bg03-sc01.png) no-repeat;
+}
+
+#advantage_3 .pic_bottom {
+  position: absolute;
+  width: 820px;
+  height: 290px;
+  left: -60px;
+  bottom: 0;
+  background: url(../img/bg03-sc02.png) no-repeat;
+}
+
+#advantage_3 h1.desc {
+  width: 540px;
+  color: #424242;
+}
+
+#advantage_3 h1.desc span {
+  color: #d90100;
+}
+
+#advantage_3 p {
+  color: #666;
+}
 
 /* =========== 媒体报道 ============ */
 
@@ -338,7 +403,6 @@ form#contact-form textarea {
 
 footer {
   text-align: center;
-  /* color: #c8c8c8; */
   padding: 50px 0;
   background-color: #1a1a1a;
 }
