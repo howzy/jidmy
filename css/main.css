@@ -287,6 +287,41 @@
   color: #666;
 }
 
+/* =========== 名品展示 ============ */
+
+#product .menu_bar {
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#product .menu_bar.active {
+  border: 1px solid #f8f8f8; 
+  box-shadow: 1px 3px 3px #ccc;
+}
+
+#product .menu_bar img {
+  display: block;
+  margin: 15px auto 0;
+}
+
+#product .list {
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+#product .list .item {
+  padding: 15px 0;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+#product .list .item:hover {
+  box-shadow: 0 0 8px #ccc;
+}
+
 /* =========== 媒体报道 ============ */
 
 embed {
@@ -443,7 +478,7 @@ footer span {
     display: none;
   }
 
-  #advantage_1 {
+  .advantage {
     display: none;
   }
 }

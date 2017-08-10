@@ -57,4 +57,16 @@
       event.preventDefault();
     });
   });
+
+  // 名品展示
+  $(function () {
+    $('.menu_bar').bind('click', function (event) {
+      var target = $(this).attr('data-target');
+      var i = $('.menu_bar').index(this);
+      $('.menu_bar').removeClass('active');
+      $(this).addClass('active');
+      $('.list').addClass('hide');
+      $('.list').eq(i).removeClass('hide');
+    })
+  });
 })(jQuery);
